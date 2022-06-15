@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="istockphoto-1021734334-612x612.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="istockphoto-1021734334-612x612.jpg" />
+  </ItemGroup>
+
+</Project>

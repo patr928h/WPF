@@ -1,0 +1,35 @@
+﻿<Window x:Class="Canvas02.SplashScreenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Canvas02"
+        mc:Ignorable="d"
+        Title="SplashScreenWindow"
+        Height="450"
+        Width="800"
+        WindowStyle="None"
+        ResizeMode="NoResize">
+    <Canvas>
+        <Canvas.Background>
+            <ImageBrush ImageSource="/istockphoto-1021734334-612x612.jpg" />
+        </Canvas.Background>
+        <PasswordBox x:Name="passwordBox"
+            Canvas.Left="340"
+                     Canvas.Top="199"
+                     Width="120" />
+        <Button Content="Log ind"
+                Canvas.Left="380"
+                Canvas.Top="252"
+                Click="Button_Click" />
+        <TextBox x:Name="TextUsername"
+            Canvas.Left="340"
+                 Canvas.Top="157"
+                 Text=""
+                 TextWrapping="Wrap"
+                 Width="120"
+                 TextChanged="TextBox_TextChanged" />
+
+
+    </Canvas>
+</Window>
